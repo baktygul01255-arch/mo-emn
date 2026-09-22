@@ -1,4 +1,9 @@
+// Настройки сайта МО ЕМН.
+// Вставьте ссылки между кавычками и сохраните файл.
 window.PLAN_CONFIG = {
-  appsScriptUrl: "ВСТАВЬТЕ_СЮДА_ССЫЛКУ_APPS_SCRIPT_С_ОКОНЧАНИЕМ_EXEC",
+  // URL развернутого веб-приложения Google Apps Script, заканчивается на /exec
+  appsScriptUrl: "https://script.google.com/macros/s/AKfycbz-vDG9OHtasMrwbaaCaaDAKTsGkxjLWwVtBqhPdnK-cxjDzB_rwQr2a_KAHzL-kYO8zg/exec",
+
+  // Необязательно: ссылка на общую папку с отчётами для руководителя МО
   reportsFolderUrl: ""
 };
